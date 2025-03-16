@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samo Gallery</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Ionicons ka  -->
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/modern-deco" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/rubik-glitch" rel="stylesheet">
+
+    <style>
+        h1, button {
+            font-family: 'Modern Deco', sans-serif;
+        }
+        h3{
+            font-family: 'Rubik Glitch', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <main class="bg-cover h-screen" style="background-image: url('/Images/bg.jpg')"
+
+    
+    
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 bg-black bg-opacity-50">
+        <h3 class="text-white text-2xl">Samo Gallery</h3>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-btn" class="text-white text-3xl md:hidden">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        
+        <ul id="menu" class="hidden md:flex gap-6 font-bold text-white">
+            <li><a href="#" class="hover:text-[#D39805]">Home</a></li>
+            <li><a href="About.html" class="hover:text-[#D39805]">About</a></li>
+            <li><a href="#" class="hover:text-[#D39805]">Service</a></li>
+            <li>
+                <a href="#" class="bg-gray-800 px-4 py-1 rounded-xl border border-gray-600 hover:bg-gray-400 hover:text-[#D39805]">
+                    Download App
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <ul id="mobile-menu" class="hidden flex flex-col items-center bg-black bg-opacity-90 text-white py-4 space-y-4 md:hidden">
+        <li><a href="#" class="hover:text-[#D39805]">Home</a></li>
+        <li><a href="#" class="hover:text-[#D39805]">About</a></li>
+        <li><a href="#" class="hover:text-[#D39805]">Service</a></li>
+        <li>
+            <a href="#" class="bg-gray-800 px-4 py-2 rounded-xl border border-gray-600 hover:bg-gray-400 hover:text-[#D39805]">
+                Download App
+            </a>
+        </li>
+    </ul>
+
+    <!-- Main-->
+    <div class="p-8 flex flex-col-reverse md:flex-row items-center justify-between text-center md:text-left">
+        <aside class="max-w-lg">
+            <h1 class="text-[#D39805] font-bold text-6xl md:text-4xl pb-2">Welcome to Samo Gallery</h1>
+            <h2 class="text-gray-400 ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis exercitationem labore aspernatur, cum fugit sed aut quis cupiditate qui aliquam quam sit aliquid libero quia a illum soluta doloremque? Veritatis?
+            </h2>
+        </aside>
+
+        <aside class="w-full md:w-96 h-auto">
+            <img src="/images/asset 4.jpeg" alt="Samo Gallery Image" class="h-64 rounded-full">
+        </aside>
+    </div>
+
+    
+    <div class="flex justify-center mt-6">
+        <button class="bg-[#D39805] hover:bg-gray-300 hover:text-[#D39805] px-2 py-1 text-white font-bold rounded items-center">
+            GET IT NOW 
+            <ion-icon name="arrow-down-outline"></ion-icon>
+        </button>
+    </div>
+</main>
+
+                  <!-- card  -->
+<div  class="container mx-auto px-4 py-4">
+    <div id="photo-container" class=" grid-cols-1 md:grid grid-cols-2 lg:grid-cols-3 gap-3 shadow-lg rounded-2xl mt-8">
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
